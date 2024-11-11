@@ -29,7 +29,7 @@ def is_relevant(question):
     result = classifier(question, candidate_labels)
 
     # Check if DOMAIN has the highest score
-    if result['label'][0] == DOMAIN and result['scores'][0] > 0.7:
+    if result['labels'][0] == DOMAIN and result['scores'][0] > 0.7:
         return True
     else:
         return False
