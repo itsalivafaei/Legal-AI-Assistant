@@ -12,6 +12,26 @@ Features:
 - **Context Filtering**: Questions outside the legal domain are politely declined, maintaining focus and accuracy.
 - **Easy Deployment**: Instructions included for running the application locally or within a Docker container.
 
-Getting Started:
 
-	1.	Clone the Repository:
+Getting Started:
+**Clone the repository**:
+
+	git clone https://github.com/yourusername/Legal-AI-Assistant.git
+
+**Install Dependencies**:
+- Ensure you have *Python 3.8 or higher*.
+- Install required packages.
+
+	pip install -r requirements.txt
+
+**Setup API Key**:
+Obtain a Groq Api key and set it as an environment variable:
+
+	export GROQ_API_KEY='your_actual_groq_api_key'
+
+**Run the Application**:
+
+	python main.py
+
+7. **Access the Interface**:
+Open the provided local URL in your web browser to interact with the assistant.
