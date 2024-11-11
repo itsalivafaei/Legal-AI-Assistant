@@ -16,7 +16,7 @@ Features:
 Getting Started:
 **Clone the repository**:
 
-	git clone https://github.com/yourusername/Legal-AI-Assistant.git
+	git clone https://github.com/itsalivafaei/Legal-AI-Assistant.git
 
 **Install Dependencies**:
 - Ensure you have *Python 3.8 or higher*.
