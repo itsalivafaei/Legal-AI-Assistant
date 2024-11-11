@@ -1,0 +1,28 @@
+# Ignore generated audio files
+output.mp3
+
+# Ignore README files
+README.md
+readme.md
+
+# Ignore environment files containing sensitive information
+.env
+
+# Ignore Python cache directories and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore any other temporary or unnecessary files
+*.tmp
+*.swp
