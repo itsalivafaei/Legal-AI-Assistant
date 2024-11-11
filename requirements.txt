@@ -1,0 +1,13 @@
+pip install torch torchvision torchaudio
+pip install gradio
+pip install pyngrok
+pip install pydub
+pip install groq
+pip install openai-whisper
+pip install gTTS
+pip install dotenv
+gradio~=5.5.0
+gTTS~=2.5.3
+groq~=0.11.0
+pydub~=0.25.1
+python-dotenv~=1.0.1
