@@ -1,2 +1,21 @@
 output.mp3
 other.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+.DS_Store
+
+# Environment files
+.env
+
+# Static and temporary files
+/app/static/
+/app/temp/
+
+# Virtual environment directories
+venv/
+env/

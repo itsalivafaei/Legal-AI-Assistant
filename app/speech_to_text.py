@@ -3,13 +3,14 @@
 
 import whisper
 
+# Load the model once at startup
+model = whisper.load_model("tiny")
 
 # Initialize Whisper model
 def whis_init(audio):
-    model = whisper.load_model("tiny", download_root="~/.cache/whisper")
     print("================================ Whisper Model Loaded================================")
 
     result = model.transcribe(audio)
     print("================================ Whisper DONE================================")
 
-    return result
+    return result['text']
