@@ -20,4 +20,4 @@ def pain_ui(process_input):
         description="Ask questions related to legal issues."
     )
 
-    interface.launch(debug=True)
+    interface.launch(debug=True, share=True)
