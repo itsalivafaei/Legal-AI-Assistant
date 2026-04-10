@@ -1,5 +1,5 @@
-from text_to_speech import text_to_speech
-from natural_language_understanding import DOMAIN, is_relevant
+from .text_to_speech import text_to_speech
+from .natural_language_understanding import DOMAIN, is_relevant
 
 import os
 from groq import Groq

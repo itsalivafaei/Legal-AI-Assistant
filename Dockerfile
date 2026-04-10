@@ -19,4 +19,4 @@ EXPOSE 7860
 ARG GROQ_API_KEY
 ENV GROQ_API_KEY=${GROQ_API_KEY}
 
-CMD ["python", "app/main.py"]
+CMD ["python", "-m", "app.main"]

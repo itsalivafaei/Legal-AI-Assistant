@@ -1,6 +1,6 @@
-from gradio_user_interface import pain_ui
-from speech_to_text import whis_init
-from large_language_model import generate_response
+from .gradio_user_interface import pain_ui
+from .speech_to_text import whis_init
+from .large_language_model import generate_response
 
 
 def process_input(text, audio):

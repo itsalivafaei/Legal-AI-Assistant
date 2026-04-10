@@ -3,11 +3,21 @@
 
 import whisper
 
-# Load the model once at startup
-model = whisper.load_model("tiny")
+_model = None
 
-# Initialize Whisper model
+
+def _get_model():
+    global _model
+    if _model is None:
+        try:
+            _model = whisper.load_model("tiny", download_root="~/.cache/whisper")
+        except Exception as e:
+            raise RuntimeError(f"Failed to load Whisper model: {e}") from e
+    return _model
+
+
 def whis_init(audio):
+    model = _get_model()
     print("================================ Whisper Model Loaded================================")
 
     result = model.transcribe(audio)

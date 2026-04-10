@@ -13,7 +13,7 @@ __pycache__/
 # System files
 .DS_Store
 
-# Environment files (never commit secrets)
+# Environment files
 .env
 
 # Temporary files
