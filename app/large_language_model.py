@@ -36,7 +36,7 @@ def generate_response(question):
         except Exception as e:
             print("================================ Groq Connection Failed================================")
             print("Error generating response: ", e)
-            return "I'm sorry, but I'm unable to provide a response at this time."
+            return "I'm sorry, but I'm unable to provide a response at this time.", None
 
     else:
         return DEFAULT_RESPONSE, None

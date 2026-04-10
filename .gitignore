@@ -1,4 +1,8 @@
+# Generated audio artifacts
 output.mp3
+app/static/
+
+# Legacy files
 other.txt
 
 # Python cache
@@ -9,15 +13,22 @@ __pycache__/
 # System files
 .DS_Store
 
-# Environment files
+# Environment files (never commit secrets)
 .env
 
-# Static and temporary files
-/app/static/
+# Temporary files
 /app/temp/
 
 # Virtual environment directories
 venv/
 env/
+.venv/
 
+# IDE
+.idea/
+
+# Gradio cache
+.gradio/
+
+# Prevent accidental ~ directory creation
 ~/

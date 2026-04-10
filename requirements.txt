@@ -1,11 +1,8 @@
-fastapi
-uvicorn
 torch
 torchaudio
-torchvision
-gradio
-groq
 openai-whisper
+groq
+gradio
 gTTS
 pydub
 transformers
