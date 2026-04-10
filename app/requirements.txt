@@ -1,12 +1,10 @@
-fastapi
-uvicorn
 torch
 torchaudio
 torchvision
-gradio
-groq
 openai-whisper
 gTTS
 pydub
 transformers
 python-dotenv
+mpmath
+openai
